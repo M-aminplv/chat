@@ -1,7 +1,9 @@
 import Form from "@components/form";
 
 const Login = () => {
-	return <div>Login</div>;
+	return (
+    <Form type='login'/>
+    );
 };
 
 export default Login;
